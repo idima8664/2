@@ -1,0 +1,279 @@
+/* цвет основного текста #757575*/
+/* цвет вторичного текста #212121*/
+/* белый FFFFFF*/
+/* акцент #2196F3 - #000000*/
+/* Вторичный цвет фона #2F303A */
+/* Вторичный цвет фона# F5F4FA */
+body {
+  font-family: Roboto, sans-serif;
+  font-size: 14px;
+  line-height: 1.71;
+  letter-spacing: 0.03em;
+  background-color: #fff;
+  color: var(--primary-text-color);
+}
+.visually-hidden {
+  position: absolute;
+  clip: rect(0 0 0 0);
+  width: 1px;
+  height: 1px;
+  margin: -1px;
+}
+address {
+  font-style: normal;
+  margin-top: 20px;
+}
+h1,
+h2,
+h3,
+p {
+  padding: 0;
+  margin: 0;
+}
+ul {
+  margin: 0;
+  padding: 0;
+  list-style: none;
+}
+a {
+  text-decoration: none;
+  cursor: pointer;
+}
+img {
+  max-width: 100%;
+  height: auto;
+  display: block;
+}
+
+/* section */
+.section {}
+.section-hero {}
+/* container */
+.header {
+  background-color: #fff;
+}
+.container {
+width: 1200px;
+padding: 0 15px;
+margin: 0 auto;
+}
+/* header */
+.first-floor {
+  background-color: #212121; 
+}
+.first-floor-list {
+  display: flex;
+  margin-left: 880px;
+}
+.first-floor-item:not(:last-child) {
+  margin-right: 20px;
+}
+.first-floor-link {
+  font-family: 'Zen Kurenaido', sans-serif;
+  font-size: 18px;
+  font-weight: 400px;
+  color: #fff;
+}
+.first-floor-login {
+  padding: 5px 10px;
+  background-color: #FF8C00;
+  font-family: 'Zen Kurenaido', sans-serif;
+  font-size: 18px;
+  font-weight: 400px;
+  color: #212121;
+}
+.first-floor-link:hover,
+.first-floor-link:focus {
+  color: #FF8C00;
+}
+.first-floor-login:hover,
+.first-floor-login:focus {
+  background-color: #fff;
+
+}
+.second-floor-container {
+display: flex;
+align-items: center;
+}
+.second-floor-list {
+  display: flex;
+  position: relative;
+  background-color: #fff;
+}
+.second-floor-item:not(:last-child) {
+  margin-right: 40px;
+}
+.nav-link {
+  font-family: 'Zen Kurenaido', sans-serif;
+  height: 100%;
+  display: flex;
+  align-items: center;
+  position: relative;
+  margin-left: 50px;
+  padding-top: 15px;
+  padding-bottom: 15px;
+  font-size: 23px;
+  font-weight: 400px;
+  color: #212121;
+}
+.nav-link:focus,
+.nav-link:hover {
+  color: #FF8C00;
+}
+.link-active::after {
+  content: "";
+  position:absolute;
+  height: 4px;
+  border-radius: 2px;
+  bottom: 0;
+  width: 100%;
+  background-color: #FF8C00;
+}
+
+/* hero */
+.hero {
+  margin-right: auto;
+  margin-left: auto;
+  background-color: #2f303a;
+  background-image: linear-gradient(
+    to left,
+    rgba(47, 48, 58, 0.6),
+    rgba(47, 48, 58, 0.6)
+  ), url(../img/3.jpeg);
+  background-size: cover;
+  max-width: 1600px;
+  background-repeat: no-repeat;
+  background-position: center;
+  padding: 100px 0;
+}
+.container-hero {
+  display: flex;
+}
+.hero-text {
+
+}
+.hero-title {
+  font-family: 'Russo One', sans-serif;
+  font-weight: 900px;
+  font-size: 59px;
+  line-height: 1.36;
+  letter-spacing: 0.06em;
+  text-transform: uppercase;
+  width: 530px;
+  text-align: left;
+  color: #fff;
+}
+.hero-text {
+  font-family: 'Zen Kurenaido', sans-serif;
+  font-weight: 100px;
+  font-size: 21px;
+  letter-spacing: 0.06em;
+  line-height: 1.36;
+  text-transform: uppercase;
+  width: 430px;
+  text-align: left;
+  color: #fff;
+}
+.modal-animation {
+  display: flex;
+}
+.find-transaction-title {
+  font-family: 'Russo One', sans-serif;
+  font-weight: 900px;
+  font-size: 32px;
+  line-height: 1.36;
+  letter-spacing: 0.06em;
+  text-transform: uppercase;
+  width: 430px;
+  text-align: right;
+  color: #fff;
+}
+.find-transaction-text {
+  font-family: 'Zen Kurenaido', sans-serif;
+  font-weight: 100px;
+  font-size: 22px;
+  letter-spacing: 0.06em;
+  line-height: 1.36;
+  text-transform: uppercase;
+  width: 380px;
+  text-align: Left;
+  color: #fff;
+}
+.find-tumb {
+  background-color: silver;
+  margin-top: 20px;
+  border-radius: 4px;
+  width: 380px;
+  height: 30px;
+}
+.buttom {
+  font-family: 'Zen Kurenaido', sans-serif;
+  font-weight: bold;
+  font-size: 16px;
+  line-height: 1.62;
+  text-align: center;
+  border: none;
+  margin-top: 10px;
+  padding: 6px 8px;
+  cursor: pointer;
+  background: #FF8C00;
+  color: #fff;
+}
+.buttom:focus,
+.buttom:hover {
+  color: #212121;
+  box-shadow: 0px 3px 1px rgba(0, 0, 0, 0.1), 0px 1px 2px rgba(0, 0, 0.08),
+  0px 2px 2px rgba(0, 0, 0, 0.12);
+  border-radius: 4px;
+}
+.backdrop {
+  position: fixed;
+  top: 0%;
+  left: 0%;
+  width: 100%;
+  height: 100%;
+  background-color: rgba(0, 0, 0, 0.2);
+  transition-property: opacity visibility;
+  transition-duration: 250ms;
+  transition-timing-function: cubic-bezier(0.4, 0, 0.2, 1);
+}
+.is-hidden .modal {
+  transform: translate(200%) scale(2);
+}
+.modal {
+  position: absolute;
+  min-width: 528px;
+  min-height: 581px;
+  background: #fff;
+  border-radius: 4px;
+  top: 50%;
+  left: 50%;
+  transform: translate(-50%, -50%) scale(1);
+  transition: 250ms cubic-bezier(04., 0, 0.2, 1);
+}
+.close-modal {
+  position: absolute;
+  cursor: pointer;
+  width: 30px;
+  height: 30px;
+  border-width: 1px;
+  border-radius: 50%;
+  border-color: rgba(0, 0, 0, 0.1);
+  background-color: #fff;
+  position: absolute;
+  margin: 0;
+  top: 8px;
+  right: 8px;
+  display: flex;
+  align-items: center;
+  justify-content: center;
+}
+.is-hidden {
+  visibility: hidden;
+  opacity: 0;
+  pointer-events: none;
+}
+.modal-animation {
+  margin-left: auto;
+  margin-top: auto;
+}
