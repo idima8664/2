@@ -3,7 +3,9 @@
 /* белый FFFFFF*/
 /* акцент #2196F3 - #000000*/
 /* Вторичный цвет фона #2F303A */
-/* Вторичный цвет фона# F5F4FA */
+/* Вторичный цвет фона# F5F4FA 
+#89cb31 #75ad2a*/
+
 body {
   font-family: Roboto, sans-serif;
   font-size: 14px;
@@ -57,7 +59,14 @@ width: 1200px;
 padding: 0 15px;
 margin: 0 auto;
 }
+
+
 /* header */
+
+
+/* 1 floor */
+
+
 .first-floor {
   background-color: #212121; 
 }
@@ -76,7 +85,7 @@ margin: 0 auto;
 }
 .first-floor-login {
   padding: 5px 10px;
-  background-color: #FF8C00;
+  background-color: #75ad2a;
   font-family: 'Zen Kurenaido', sans-serif;
   font-size: 18px;
   font-weight: 400px;
@@ -84,13 +93,17 @@ margin: 0 auto;
 }
 .first-floor-link:hover,
 .first-floor-link:focus {
-  color: #FF8C00;
+  color: #75ad2a;
 }
 .first-floor-login:hover,
 .first-floor-login:focus {
   background-color: #fff;
 
 }
+
+/* 2 floor */
+
+
 .second-floor-container {
 display: flex;
 align-items: center;
@@ -118,19 +131,140 @@ align-items: center;
 }
 .nav-link:focus,
 .nav-link:hover {
-  color: #FF8C00;
-}
-.link-active::after {
-  content: "";
-  position:absolute;
-  height: 4px;
-  border-radius: 2px;
-  bottom: 0;
-  width: 100%;
-  background-color: #FF8C00;
+  color: #89cb31;
 }
 
+/* Submenu */
+
+
+.menu {
+  background-color: #fff;
+  position: absolute;
+  display: none;
+  left: 0%;
+  top: 100%;
+  border-top: 4px solid #89cb31;
+}
+.menu-container {
+  width: 630px;
+  height: 510px;
+  padding: 0 20px;
+  margin: 0;
+}
+.submenu-container {
+  display: flex;
+  margin-top: 30px;
+}
+.submenu-list {
+  margin-top: 15px;
+}
+.submenu-item {
+  margin-top: 15px;
+  margin-left: 10px;
+}
+.submenu-left {
+  padding: 0 15px;
+  position: relative;
+  border: 5px solid #eeeeee;
+  width: 300px;
+  height: 330px;
+}
+.submenu-link:hover,
+.submenu-link:focus {
+  color: #89cb31;
+}
+.submenu-right {
+  padding: 0 15px;
+  margin-left: 15px;
+  position: relative;
+  border: 5px solid #eeeeee;
+  width: 300px;
+  height: 330px;
+}
+.submenu-title {
+  font-family: 'Russo One', sans-serif;
+  font-weight: bold;
+  margin-top: 20px;
+  font-size: 19px;
+  letter-spacing: 0.06em;
+  line-height: 1.36;
+  width: max-content;
+  text-align: left;
+  color: #212121;
+}
+.laptop {
+  width: 150px;
+  height: 100px;
+}
+.submenu-black {
+  background-color: #212121;
+}
+.submenu-link {
+  text-decoration: none;
+  font-family: 'Roboto Condensed', sans-serif;
+  font-weight: 400;
+  margin-top: 10px;
+  font-size: 17px;
+  letter-spacing: 0.06em;
+  line-height: 1.36;
+  width: 270px;
+  text-align: left;
+  color: #212121; 
+}
+.submenu-text {
+  font-family: 'Roboto Condensed', sans-serif;
+  font-weight: 400;
+  margin-top: 10px;
+  padding-bottom: 6px;
+  font-size: 17px;
+  letter-spacing: 0.06em;
+  line-height: 1.36;
+  width: 270px;
+  text-align: left;
+  color: #fff; 
+}
+.submenu-title-width {
+  font-family: 'Russo One', sans-serif;
+  font-weight: bold;
+  margin-top: 20px;
+  font-size: 22px;
+  letter-spacing: 0.06em;
+  line-height: 1.36;
+  width: 100px;
+  text-align: left;
+  color: #fff;
+}
+.menu-title {
+  font-family: 'Russo One', sans-serif;
+  font-weight: bold;
+  margin-top: 20px;
+  font-size: 30px;
+  letter-spacing: 0.06em;
+  line-height: 1.36;
+  width: 100px;
+  text-align: left;
+  color: #212121;
+}
+.menu-text {
+  font-family: 'Roboto Condensed', sans-serif;
+  font-weight: 400;
+  margin-top: 10px;
+  font-size: 20px;
+  letter-spacing: 0.06em;
+  line-height: 1.36;
+  width: 600px;
+  text-align: left;
+  color: #212121; 
+}
+.second-floor-item:hover .menu,
+.second-floor-item:focus .menu {
+  display: block;
+}
+
+
 /* hero */
+
+
 .hero {
   margin-right: auto;
   margin-left: auto;
@@ -199,25 +333,35 @@ align-items: center;
   text-align: Left;
   color: #fff;
 }
+.find-list {
+  display: flex;
+}
 .find-tumb {
+  font-family: 'Zen Kurenaido', sans-serif;
+  font-weight: 100px;
+  font-size: 22px;
+  letter-spacing: 0.06em;
+  line-height: 1.36;
   background-color: silver;
   margin-top: 20px;
   border-radius: 4px;
-  width: 380px;
-  height: 30px;
+  width: 260px;
+  height: 40px;
 }
 .buttom {
-  font-family: 'Zen Kurenaido', sans-serif;
+  font-family: 'Roboto Condensed', sans-serif;
+  border-radius: 4px;
   font-weight: bold;
   font-size: 16px;
   line-height: 1.62;
   text-align: center;
   border: none;
-  margin-top: 10px;
+  margin-top: 20px;
   padding: 6px 8px;
   cursor: pointer;
-  background: #FF8C00;
+  background: #89cb31;
   color: #fff;
+  height: 40px;
 }
 .buttom:focus,
 .buttom:hover {
@@ -277,3 +421,78 @@ align-items: center;
   margin-left: auto;
   margin-top: auto;
 }
+.container-transfer {
+  width: 450px;
+  padding: 0 10px;
+  margin: 0 auto;
+}
+.transfer-info {
+  background-color: #212121;
+}
+.transfer-title {
+  font-family: 'Russo One', sans-serif;
+  font-weight: 900px;
+  font-size: 28px;
+  line-height: 1.36;
+  letter-spacing: 0.06em;
+  margin: 0 20px;
+  width: 360px;
+  color: #fff;
+}
+.container-transfer {
+  display: flex;
+  margin-top: 30px;
+}
+.transfer-info-item-1:not(:last-child) {
+  margin-bottom: 30px;
+}
+.transfer-info-item-2:not(:last-child) {
+  margin-bottom: 35px;
+}
+.transfer-info-text-1 {
+  font-family: 'Russo One', sans-serif;
+  font-weight: 900px;
+  font-size: 22px;
+  line-height: 1.36;
+  letter-spacing: 0.06em;
+  width: 250px;
+  color: #212121;
+}
+.transfer-info-text-2 {
+  font-family: 'Brygada 1918', sans-serif;
+  font-weight: bold;
+  font-size: 18px;
+  line-height: 1.36;
+  letter-spacing: 0.06em;
+  width: 200px;
+  color: #555454;
+}
+.trasfer-button {
+  font-family: 'Roboto Condensed', sans-serif;
+  border-radius: 4px;
+  align-items: center;
+  margin: 0 auto;
+  font-weight: bold;
+  font-size: 19px;
+  line-height: 1.62;
+  text-align: center;
+  border: none;
+  margin-top: 35px;
+  padding: 6px 8px;
+  cursor: pointer;
+  background: #89cb31;
+  color: #fff;
+  height: 40px;
+}
+.trasfer-button:focus,
+.trasfer-button:hover {
+  color: #212121;
+  box-shadow: 0px 3px 1px rgba(0, 0, 0, 0.1), 0px 1px 2px rgba(0, 0, 0.08),
+  0px 2px 2px rgba(0, 0, 0, 0.12);
+  border-radius: 4px;
+}
+
+
+/* video */
+
+
