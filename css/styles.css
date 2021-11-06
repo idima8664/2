@@ -685,7 +685,7 @@ align-items: center;
   display: flex;
 }
 .corona-container-item {
-  align-items: center;
+  margin: 0 auto;
   padding: 0 15px;
   margin-right: 75px;
   margin-bottom: 94px;
@@ -703,7 +703,7 @@ align-items: center;
   background-color: #eee;
 }
 .corona-cont {
-  width: 350px;
+  width: 320px;
   height: 350px;
   padding-top: 20px;
 }
@@ -731,4 +731,8 @@ align-items: center;
 .corona-button:hover,
 .corona-button:focus {
   color: #89cb31;
+}
+.corona-percent {
+font-size: 43px;
+margin-top: 30px;
 }
