@@ -7,7 +7,8 @@
 #89cb31 #75ad2a*/
 
 body {
-  font-family: Roboto, sans-serif;
+  font-family: 'Josefin Sans', sans-serif;
+  text-align: center;
   font-size: 14px;
   line-height: 1.71;
   letter-spacing: 0.03em;
@@ -117,7 +118,7 @@ align-items: center;
   margin-right: 40px;
 }
 .nav-link {
-  font-family: 'Zen Kurenaido', sans-serif;
+  font-family: 'Josefin Sans', sans-serif;
   height: 100%;
   display: flex;
   align-items: center;
@@ -201,7 +202,7 @@ align-items: center;
 }
 .submenu-link {
   text-decoration: none;
-  font-family: 'Roboto Condensed', sans-serif;
+  font-family: 'Josefin Sans', sans-serif;
   font-weight: 400;
   margin-top: 10px;
   font-size: 17px;
@@ -212,7 +213,7 @@ align-items: center;
   color: #212121; 
 }
 .submenu-text {
-  font-family: 'Roboto Condensed', sans-serif;
+  font-family: 'Josefin Sans', sans-serif;
   font-weight: 400;
   margin-top: 10px;
   padding-bottom: 6px;
@@ -224,7 +225,7 @@ align-items: center;
   color: #fff; 
 }
 .submenu-title-width {
-  font-family: 'Russo One', sans-serif;
+  font-family: 'Josefin Sans', sans-serif;
   font-weight: bold;
   margin-top: 20px;
   font-size: 22px;
@@ -235,7 +236,7 @@ align-items: center;
   color: #fff;
 }
 .menu-title {
-  font-family: 'Russo One', sans-serif;
+  font-family: 'Josefin Sans', sans-serif;
   font-weight: bold;
   margin-top: 20px;
   font-size: 30px;
@@ -246,7 +247,7 @@ align-items: center;
   color: #212121;
 }
 .menu-text {
-  font-family: 'Roboto Condensed', sans-serif;
+  font-family: 'Josefin Sans', sans-serif;
   font-weight: 400;
   margin-top: 10px;
   font-size: 20px;
@@ -430,7 +431,7 @@ align-items: center;
   background-color: #212121;
 }
 .transfer-title {
-  font-family: 'Russo One', sans-serif;
+  font-family: 'Josefin Sans', sans-serif;
   font-weight: 900px;
   font-size: 28px;
   line-height: 1.36;
@@ -450,7 +451,7 @@ align-items: center;
   margin-bottom: 35px;
 }
 .transfer-info-text-1 {
-  font-family: 'Russo One', sans-serif;
+  font-family: 'Josefin Sans', sans-serif;
   font-weight: 900px;
   font-size: 22px;
   line-height: 1.36;
@@ -493,6 +494,241 @@ align-items: center;
 }
 
 
-/* video */
+/* business */
 
 
+.section-business {
+  background-color: #eeeeee;
+  padding-top: 74px;
+  padding-bottom: 74px;
+}
+.home-title {
+  font-weight: bold;
+  font-size: 32px;
+  line-height: 42px;
+  text-align: center;
+  letter-spacing: 0.03em;
+}
+.business-list {
+  display: flex;
+}
+.business-container {
+  position: relative;
+  text-align: center;
+  margin-top: 40px;
+  width: 270px;
+  height: 310px;
+  background-color: #fff;
+}
+.business-item-container {
+  padding: 25px 10px;
+  width: 270px;
+  height: 220px;
+}
+.business-item:not(:last-child) {
+  margin-right: auto;
+}
+.business-title {
+  font-size: 28px;
+  line-height: 31px;
+  letter-spacing: 0.03em;
+}
+.business-text {
+  font-family: 'Arial';
+  margin-top: 15px;
+  font-size: 16px;
+  line-height: 22px;
+  letter-spacing: 0.03em;
+}
+.business-button {
+  font-family: 'Roboto Condensed', sans-serif;
+  border-radius: 2px;
+  align-items: center;
+  margin: 0;
+  font-weight: bold;
+  font-size: 19px;
+  line-height: 1.62;
+  text-align: center;
+  border: 3px solid #75ad2a;
+  padding: 10px 35px;
+  cursor: pointer;
+  background: #89cb31;
+  color: #fff;
+}
+.business-button:hover,
+.business-button:focus {
+  color: #212121;
+  background-color: #eeeeee;
+  border: 3px solid #555454;
+}
+
+
+/* life */
+
+.section-life {
+  padding-top: 80px;
+}
+.home-text {
+  margin-top: 30px;
+  font-size: 19px;
+  letter-spacing: 0.03em;
+}
+.container-life {
+  display: flex;
+  margin-top: 60px;
+}
+.container-life-item {
+  height: 450px;
+  width: 600px;
+}
+.container-img1 {
+  height: 120px;
+  width: 600px;
+}
+.container-img2 {
+  height: 120px;
+  width: 600px;
+}
+.life-list {
+  display: flex;
+}
+.life-item1 {
+  margin-right: 10px;
+  margin-left: auto;
+  background-color: #2f303a;
+  background-image: linear-gradient(
+    to left,
+    rgba(47, 48, 58, 0.4),
+    rgba(47, 48, 58, 0.4)
+  ), url(../img/job1.jpeg);
+  background-size: cover;
+  max-width: 600px;
+  background-repeat: no-repeat;
+  background-position: center;
+  padding: 100px 0;
+}
+.life-img1 {
+  margin-right: auto;
+  margin-left: auto;
+  margin-bottom: 10px;
+  background-color: #2f303a;
+  background-image: linear-gradient(
+    to left,
+    rgba(47, 48, 58, 0.4),
+    rgba(47, 48, 58, 0.4)
+  ), url(../img/job2.jpeg);
+  background-size: cover;
+  max-width: 600px;
+  background-repeat: no-repeat;
+  background-position: center;
+  padding: 100px 0; 
+}
+.life-img2 {
+  margin-right: auto;
+  margin-left: auto;
+  background-color: #2f303a;
+  background-image: linear-gradient(
+    to left,
+    rgba(47, 48, 58, 0.4),
+    rgba(47, 48, 58, 0.4)
+  ), url(../img/job3.png);
+  background-size: cover;
+  max-width: 600px;
+  background-repeat: no-repeat;
+  background-position: center;
+  padding: 100px 0;
+}
+.life-button {
+  font-family: 'Roboto Condensed', sans-serif;
+  border-radius: 2px;
+  align-items: left;
+  margin: 0;
+  font-weight: bold;
+  font-size: 19px;
+  line-height: 1.62;
+  border: 3px solid #75ad2a;
+  padding: 10px 35px;
+  cursor: pointer;
+  background: #89cb31;
+  color: #fff;
+}
+.life-button:hover,
+.life-button:focus {
+  color: #212121;
+  background-color: #eeeeee;
+  border: 3px solid #555454;
+}
+.life-title1 {
+  font-size: 28px;
+  padding-top: 430px;
+  color: #fff;
+}
+.life-title {
+  font-size: 28px;
+  padding-top: 110px;
+  color: #fff;
+}
+
+
+/* corona */
+.section-corona {
+  background-color: #eeeeee;
+  margin: 0;
+  padding: 0 15px;
+}
+.container-corona {
+  display: flex;
+  margin-top: 50px;
+  padding: 65px 15px;
+}
+.corona-list {
+  display: flex;
+}
+.corona-container-item {
+  align-items: center;
+  padding: 0 15px;
+  margin-right: 75px;
+  margin-bottom: 94px;
+  width: 350px;
+  height: 420px;
+  border: 5px solid #555454;
+  background-color: #fff;
+}
+.corona-container-item1 {
+  padding: 0 15px;
+  margin-bottom: 94px;
+  width: 350px;
+  height: 420px;
+  border: 5px solid #555454;
+  background-color: #eee;
+}
+.corona-cont {
+  width: 350px;
+  height: 350px;
+  padding-top: 20px;
+}
+.corona-title {
+  font-weight: bold;
+  font-size: 29px;
+  line-height: 42px;
+  text-align: left;
+  letter-spacing: 0.03em;
+  margin-right: auto;
+}
+.corona-button {
+  font-family: 'Roboto Condensed', sans-serif;
+  border-radius: 2px;
+  align-items: 70px;
+  font-weight: bold;
+  font-size: 17px;
+  line-height: 1.62;
+  border: 3px solid #89cb31;
+  padding: 7px 25px;
+  cursor: pointer;
+  background: #fff
+  color: #212121;
+}
+.corona-button:hover,
+.corona-button:focus {
+  color: #89cb31;
+}
