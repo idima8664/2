@@ -284,9 +284,6 @@ align-items: center;
 .container-hero {
   display: flex;
 }
-.hero-text {
-
-}
 .hero-title {
   font-family: 'Russo One', sans-serif;
   font-weight: 900px;
@@ -351,6 +348,7 @@ align-items: center;
 }
 .buttom {
   font-family: 'Roboto Condensed', sans-serif;
+  margin-left: 5px;
   border-radius: 4px;
   font-weight: bold;
   font-size: 16px;
@@ -387,7 +385,7 @@ align-items: center;
 }
 .modal {
   position: absolute;
-  min-width: 528px;
+  min-width: 928px;
   min-height: 581px;
   background: #fff;
   border-radius: 4px;
@@ -418,17 +416,54 @@ align-items: center;
   opacity: 0;
   pointer-events: none;
 }
+.modal-flex {
+  display: flex;
+}
+.modal-img {
+  margin-right: 20px;
+  margin-left: auto;
+  background-color: #2f303a;
+  background-image: linear-gradient(
+    to left,
+    rgba(47, 48, 58, 0.4),
+    rgba(47, 48, 58, 0.4)
+  ), url(../img/modalimg.jpg);
+  background-size: cover;
+  max-width: 600px;
+  background-repeat: no-repeat;
+  background-position: center;
+  padding: 100px 0;
+  width: 464px;
+  height: 581px
+}
+.modal-img-text {
+  margin-left: 40px;
+  font-family: 'Russo One', sans-serif;
+  font-weight: 900px;
+  font-size: 38px;
+  line-height: 1.36;
+  letter-spacing: 0.06em;
+  text-transform: uppercase;
+  width: 360px;
+  text-align: center;
+  color: #fff;
+}
+
 .modal-animation {
   margin-left: auto;
   margin-top: auto;
 }
-.container-transfer {
-  width: 450px;
-  padding: 0 10px;
-  margin: 0 auto;
-}
 .transfer-info {
-  background-color: #212121;
+  width: 462px;
+  padding: 0;
+  margin: 0;
+}
+.container-transfer {
+  padding: 20px 0;
+  width: 450px;
+  box-shadow: 0 3px 20px rgba(0,0,0, .25), 
+  inset 0 2px 0 rgba(255, 255, 255, .06),
+  0 2px 0 rgba(0,0,0,.1), inset 00 20px rgba(0,0,0,.1);
 }
 .transfer-title {
   font-family: 'Josefin Sans', sans-serif;
@@ -438,7 +473,7 @@ align-items: center;
   letter-spacing: 0.06em;
   margin: 0 20px;
   width: 360px;
-  color: #fff;
+  color: #212121;
 }
 .container-transfer {
   display: flex;
@@ -492,6 +527,7 @@ align-items: center;
   0px 2px 2px rgba(0, 0, 0, 0.12);
   border-radius: 4px;
 }
+
 
 
 /* business */
