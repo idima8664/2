@@ -1,9 +1,4 @@
-/* цвет основного текста #757575*/
-/* цвет вторичного текста #212121*/
-/* белый FFFFFF*/
-/* акцент #2196F3 - #000000*/
-/* Вторичный цвет фона #2F303A */
-/* Вторичный цвет фона# F5F4FA 
+/*F5F4FA 
 #89cb31 #75ad2a*/
 
 body {
@@ -13,7 +8,6 @@ body {
   line-height: 1.71;
   letter-spacing: 0.03em;
   background-color: #fff;
-  color: var(--primary-text-color);
 }
 .visually-hidden {
   position: absolute;
@@ -166,7 +160,10 @@ align-items: center;
 .submenu-left {
   padding: 0 15px;
   position: relative;
-  border: 5px solid #eeeeee;
+  border: 1px solid #eeeeee;
+  box-shadow: 0 3px 20px rgba(0,0,0, .25), 
+  inset 0 2px 0 rgba(255, 255, 255, .06),
+  0 2px 0 rgba(0,0,0,.1), inset 00 20px rgba(0,0,0,.1);
   width: 300px;
   height: 330px;
 }
@@ -178,7 +175,10 @@ align-items: center;
   padding: 0 15px;
   margin-left: 15px;
   position: relative;
-  border: 5px solid #eeeeee;
+  border: 1px solid #eeeeee;
+  box-shadow: 0 3px 20px rgba(0,0,0, .25), 
+  inset 0 2px 0 rgba(255, 255, 255, .06),
+  0 2px 0 rgba(0,0,0,.1), inset 00 20px rgba(0,0,0,.1);
   width: 300px;
   height: 330px;
 }
